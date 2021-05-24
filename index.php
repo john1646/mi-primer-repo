@@ -7,7 +7,7 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner mt-2">
+        <div class="carousel-inner mt-1">
             <div class="carousel-item active">
                 <img src="/cesde/images/carrusel1.jpg" class="d-block w-100" alt="..." width="100%" height="400px">
             </div>
