@@ -38,7 +38,10 @@
 
                     </li>
                     <li>
-                        <a class="btn btn-primary-light mx-5" href="/cesde/labels/inicios.php" role="button">Sig in</a>
+                        <a class="btn btn-primary-light mx-5" href="/cesde/labels/registro.php" role="button">registrate</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-primary-light mx-2" href="/cesde/labels/sigin.php" role="button">Inicia sesion</a>
                     </li>
 
                 </ul>

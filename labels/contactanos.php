@@ -12,11 +12,11 @@
         <form class="row g-3 mt-2">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Nombres Completos</label>
-                <input type="email" class="form-control" id="nombres">
+                <input type="email" class="form-control" id="nombres" required>
             </div>
             <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Apellidos</label>
-                <input type="text" class="form-control" id="apellidos">
+                <input type="text" class="form-control" id="apellidos" required>
             </div>
             <div class="col-12">
                 <label for="inputAddress" class="form-label">Direccion principal</label>
@@ -32,12 +32,18 @@
             </div>
             <div class="col-md-4">
                 <label for="inputState" class="form-label">Telefono</label>
-                <input type="text" class="form-control" id="tel">
+                <input type="text" class="form-control" id="tel" required>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="tucorreo@correo.com" required id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">No compartiremos esta informacion con nadie.</div>
             </div>
             <div class="col-10">
                 <input type="email" class="form-control" id="floatingInputValue" placeholder="Escribeneos aqui tu pregunta" value="">
                 <label for="floatingInputValue">Escribenos aqui tu pregunta </label>
             </div>
+
             </label>
     </div>
     </div>
