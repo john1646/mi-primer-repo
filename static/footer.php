@@ -1,5 +1,6 @@
 <div class="container">
-    <div class="row mt-5">
+<hr>
+    <div class="row mt-2">
         <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">

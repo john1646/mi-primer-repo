@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orient Hause</title>
+    <title>Orient House</title>
     <link rel="stylesheet" href="/cesde/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="shortcut icon" href="/cesde/icons/hause.png" type="image/x-icon">
@@ -13,7 +13,7 @@
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Horient Hause</a>
+            <a class="navbar-brand" href="#">Orient House</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,8 +35,14 @@
                             <li><a class="dropdown-item" href="/cesde/labels/galeria.php">Galeria</a></li>
                             <li><a class="dropdown-item" href="/cesde/labels/nuestrosservicios.php">Nuestros Servicios</a></li>
                         </ul>
+
                     </li>
+                    <li>
+                        <a class="btn btn-primary-light mx-5" href="/cesde/labels/inicios.php" role="button">Sig in</a>
+                    </li>
+
                 </ul>
+
             </div>
         </div>
     </nav>
