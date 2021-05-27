@@ -2,9 +2,9 @@
 <body>
     <div class="container">
     <div class="mt-4">
-    <h1>Registrate Con Nosotros</h1>
+    <h1 id="registro">Registrate Con Nosotros</h1>
     </div>
-    <form>
+    <form onsubmit="return validateContactForm();">
   <div class="mb-3 mt-5 col-10 x-5">
     <label for="exampleInputEmail1" class="form-label">Direccion de Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
