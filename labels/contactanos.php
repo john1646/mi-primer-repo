@@ -9,38 +9,38 @@
                     Rerum nisi provident repellat sapiente eos expedita optio harum omnis a eligendi soluta cumque, iste quia saepe officiis consequuntur voluptatem molestiae nihil libero sit dignissimos nobis. Eveniet, ea quibusdam. Minima!</p>
             </div>
         </header>
-        <form class="row g-3 mt-2">
+        <form class="row g-3 mt-2" onsubmit="return validatecontactanos()" method="POST">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Nombres Completos</label>
-                <input type="email" class="form-control" id="nombres" required>
+                <input type="email" class="form-control" id="name" name="name" >
             </div>
             <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Apellidos</label>
-                <input type="text" class="form-control" id="apellidos" required>
+                <input type="text" class="form-control" id="lastname" name="lastname">
             </div>
             <div class="col-12">
                 <label for="inputAddress" class="form-label">Direccion principal</label>
-                <input type="text" class="form-control" id="direccion" placeholder="Calle 123">
+                <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Calle 123">
             </div>
             <div class="col-12">
                 <label for="inputAddress2" class="form-label">Barrio</label>
-                <input type="text" class="form-control" id="barrio" placeholder="Barrio">
+                <input type="text" class="form-control" id="barrio" name="barrio" placeholder="Barrio">
             </div>
             <div class="col-md-6">
                 <label for="inputCity" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="ciudad">
+                <input type="text" class="form-control" id="ciudad" name="ciudad">
             </div>
             <div class="col-md-4">
                 <label for="inputState" class="form-label">Telefono</label>
-                <input type="text" class="form-control" id="tel" required>
+                <input type="text" class="form-control" id="tel" name="tel" >
             </div>
             <div class="mb-3 col-10">
                 <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" placeholder="tucorreo@correo.com" required id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" class="form-control" placeholder="tucorreo@correo.com"  id="email" name="email" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text">No compartiremos esta informacion con nadie.</div>
             </div>
             <div class="col-10">
-                <input type="email" class="form-control" id="floatingInputValue" placeholder="Escribeneos aqui tu pregunta" value="">
+                <input type="text" class="form-control" id="text" name="text" placeholder="Escribeneos aqui tu pregunta" value="">
                 <label for="floatingInputValue">Escribenos aqui tu pregunta </label>
             </div>
 
