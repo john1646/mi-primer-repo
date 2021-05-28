@@ -1,25 +1,25 @@
 <?php include_once("/opt/lampp/htdocs/cesde/static/header.php") ?>
 <body>
     <div class="container">
-    <div class="mt-4">
-    <h1 id="registro">Registrate Con Nosotros</h1>
+    <div class="1">
+    <h1 class="mx-5 mt-4">Registrate Con Nosotros</h1>
     </div>
     <form onsubmit="return validateContactForm()" method="POST" action="validations.php">
-  <div class="mb-3 mt-5 col-10 x-5">
+  <div class="mb-3 mt-5 col-6 mx-5">
     <label for="exampleInputEmail1" class="form-label">Direccion de Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
     <div id="email" class="form-text">Tu correo no sera compartido.</div>
   </div>
-  <div class="mb-3 mt-4 col-10 x-5">
+  <div class="mb-3 mt-4 col-6 mx-5">
     <label for="exampleInputPassword1" class="form-label">Nombre Completo</label>
-    <input type="text" class="form-control" id="name">
+    <input type="text" class="form-control" id="name" name="fullname">
   </div>
-  <div class="mb-3 mt-4 col-10 x-5">
+  <div class="mb-3 mt-4 col-6 mx-5">
     <label for="exampleInputPassword1" class="form-label">Contrasena</label>
-    <input type="password" class="form-control" id="pass">
+    <input type="password" class="form-control" id="pass" name="pass">
   </div>
  
-  <button type="submit" class="btn btn-primary mb-4">Submit</button>
+  <button type="submit" class="btn btn-primary mb-4 mx-5">Submit</button>
 </form>
     </div>
 </body>

@@ -2,7 +2,7 @@ function validateContactForm() {
     let email = document.getElementById("email").value;
     let name = document.getElementById("name").value;
     let pass = document.getElementById("pass").value;
-    if (email == "" || name == "") {
+    if (email == "" || name == "" || pass=="") {
         alert("debe llenar todos los campos");
         return false;
     } else if (name.length < 5) {
