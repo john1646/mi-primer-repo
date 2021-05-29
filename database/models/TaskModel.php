@@ -53,13 +53,13 @@ class TaskModel
 
     public function getTask($id){
         $sql = "SELECT * FROM Task WHERE id={$id}";
-        $task = $this->db->query($sql)->fetch_assoc();
-        return $task;
+        $Task = $this->db->query($sql)->fetch_assoc();
+        return $Task;
 
     }
 
-    public function updateTask($id,$fullname,$email,$pass){
-        $sql = "UPDATE Task SET fullname='{$fullname}', email='{$email}', pass='{$pass}' WHERE id={$id}";
+    public function updateTask($id,$name,$email,$pass){
+        $sql = "UPDATE Task SET name='{$name}', email='{$email}', pass='{$pass}' WHERE id='{$id}'";
         $this->db->query($sql);
         $this->db->close();
     }
