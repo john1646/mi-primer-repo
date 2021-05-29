@@ -9,6 +9,7 @@
                     <th scope="col">Nombre Completo</th>
                     <th scope="col">Email</th>
                     <th scope="col">Contrasena</th>
+                    <th scope="col">Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,6 +23,9 @@
                     <td>{$row['name']}</td>
                     <td>{$row['email']}</td>
                     <td>{$row['pass']}</td>
+                    <td>
+                    <a href='/cesde/labels/edit_task.php?id={$row['id']}'>Edit</a>
+                    </td>
                 </tr>";
                 echo $template;
                 }

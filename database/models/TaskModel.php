@@ -50,6 +50,14 @@ class TaskModel
             return $Task;
         }   
     }
+
+    public function getTask($id){
+        $sql = "SELECT * FROM Task WHERE id={$id}";
+        $task = $this->db->query($sql)->fetch_assoc();
+        return $task;
+
+    }
+
     public function updateTask($id,$fullname,$email,$pass){
         $sql = "UPDATE Task SET fullname='{$fullname}', email='{$email}', pass='{$pass}' WHERE id={$id}";
         $this->db->query($sql);
