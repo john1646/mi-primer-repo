@@ -4,7 +4,7 @@ include '/opt/lampp/htdocs/cesde/database/models/TaskModel.php';
     $taskModel = new TaskModel();
     $id = $_GET['id'];
     $task = $taskModel->getTask($id);
-    print_r($task);
+    
 ?>
 <body>
     <div class="container">
@@ -13,13 +13,13 @@ include '/opt/lampp/htdocs/cesde/database/models/TaskModel.php';
     </div>
     <form onsubmit="return validateContactForm()" method="POST" action="update_task.php?id=<?php echo $id?>">
   <div class="mb-3 mt-5 col-6 mx-5">
-    <label for="exampleInputEmail1" class="form-label">Direccion de Email</label>
-    <input type="email" value="<?php echo $task['email'] ?>" class="form-control" id="email" aria-describedby="emailHelp" name="email">
-    <div id="email" class="form-text">Tu correo no sera compartido.</div>
+    <label for="exampleInputEmail1" class="form-label">Nombre Completo</label>
+    <input type="text" value="<?php echo $task['name'] ?>" class="form-control" id="name" aria-describedby="emailHelp" name="name">
+    <div id="text" class="form-text">Tu correo no sera compartido.</div>
   </div>
   <div class="mb-3 mt-4 col-6 mx-5">
-    <label for="exampleInputPassword1" class="form-label">Nombre Completo</label>
-    <input type="text" value="<?php echo $task['fullname'] ?>" class="form-control" id="fullname" name="fullname">
+    <label for="exampleInputPassword1" class="form-label">Email</label>
+    <input type="email" value="<?php echo $task['email'] ?>" class="form-control" id="email" name="email">
   </div>
   <div class="mb-3 mt-4 col-6 mx-5">
     <label for="exampleInputPassword1" class="form-label">Contrasena</label>
