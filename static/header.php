@@ -32,6 +32,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="/cesde/labels/contactanos.php">Contactanos</a></li>
+                            <li><a class="dropdown-item" href="/cesde/labels/user_propiedad.php">Registra tu Propiedad</a></li>
                             <li><a class="dropdown-item" href="/cesde/labels/galeria.php">Galeria</a></li>
                             <li><a class="dropdown-item" href="/cesde/labels/nuestrosservicios.php">Nuestros Servicios</a></li>
                         </ul>

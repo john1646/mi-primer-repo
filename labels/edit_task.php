@@ -4,7 +4,7 @@
     <div class="1">
     <h1 class="mx-5 mt-4">Registrate Con Nosotros</h1>
     </div>
-    <form onsubmit="return validateContactForm()" method="POST" action="create_task.php">
+    <form onsubmit="return validateContactForm()" method="POST" action="update_task.php">
   <div class="mb-3 mt-5 col-6 mx-5">
     <label for="exampleInputEmail1" class="form-label">Direccion de Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
@@ -19,7 +19,7 @@
     <input type="password" class="form-control" id="pass" name="pass">
   </div>
  
-  <button type="submit" class="btn btn-primary mb-4 mx-5">Registrar</button>
+  <button type="submit" class="btn btn-primary mb-4 mx-5">Actualizar</button>
 </form>
     </div>
 </body>
