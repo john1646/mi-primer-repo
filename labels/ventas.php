@@ -1,12 +1,3 @@
-<?php
-//1. iniciar servicio de session
-session_start();
-if ($_SESSION['rol'] != 'admin') {
-  header("Location: /cesde/labels/sigin.php");
-  exit;
-}
-?>
-
 <?php include_once("/opt/lampp/htdocs/cesde/static/header.php") ?>
 
 <body>
@@ -20,7 +11,7 @@ if ($_SESSION['rol'] != 'admin') {
                     <th scope="col">Direccion</th>
                     <th scope="col">Telefono</th>
                     <th scope="col">Imagenes</th>
-                    <th scope="col">Action</th>
+                   
                 </tr>
             </thead>
             <tbody>
@@ -36,9 +27,7 @@ if ($_SESSION['rol'] != 'admin') {
                     <td>{$row['direccion']}</td>
                     <td>{$row['tel']}</td>
                     <td> <img src='{$row['images']}' alt=' ' width='150px' height='100px' srcset=''></td>                    
-                    <td>
-                    <a href='/cesde/labels/edit_propiedades.php?code={$row['code']}'>Edit</a>
-                    </td>
+                   
                 </tr>";
                 echo $template;
                 }

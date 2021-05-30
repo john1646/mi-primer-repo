@@ -1,21 +1,27 @@
 <div class="container">
-<hr>
+    <hr>
     <div class="row mt-2">
         <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title mx-5" >Nuetras Redes</h5>
+                    <div class="mb-3 mx-5 pr-2">
+                        <img src="/cesde/icons/facebook.png" alt=" " srcset="" width="30px" height="30px">
+                        <img src="/cesde/icons/whatsapp.png" alt=" " srcset="" width="30px" height="30px">
+                        <img src="/cesde/icons/instagram.png" alt=" " srcset="" width="30px" height="30px">
+                    </div>
+                    <div></div>
+
                 </div>
             </div>
         </div>
         <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 style="text-align: center;" class="card-title">Orient House</h5>
+                    <h6 style="text-align: center;" class="card-text">Todos los derechos reservados</h6>
+                    <h6 style="text-align: center;" class="card-text">Guarne - Antioquia</h6>
+
                 </div>
             </div>
         </div>

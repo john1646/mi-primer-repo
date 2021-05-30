@@ -23,7 +23,7 @@
                         <a class="nav-link active" aria-current="page" href="/cesde/index.php">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/cesde/labels/quienessomos.php">Quienes Somos</a>
+                        <a class="nav-link" href="/cesde/labels/ventas.php">Busca tu Hogar</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -33,6 +33,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="/cesde/labels/contactanos.php">Contactanos</a></li>
                             <li><a class="dropdown-item" href="/cesde/labels/registro_propiedades.php">Registra tu Propiedad</a></li>
+                            <li><a class="dropdown-item" href="/cesde/labels/list_propiedades.php">Edita tu Propiedad</a></li>
                             <li><a class="dropdown-item" href="/cesde/labels/galeria.php">Galeria</a></li>
                             <li><a class="dropdown-item" href="/cesde/labels/nuestrosservicios.php">Nuestros Servicios</a></li>
                         </ul>

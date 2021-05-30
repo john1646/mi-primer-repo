@@ -37,7 +37,7 @@
 <body class="text-center">
 
   <main class="form-signin">
-    <form method="POST" action="validate_sigin.php">
+    <form method="POST" action="validate_user.php">
       <img class="mb-2" src="/cesde/icons/hause.png" alt="" width="72" height="57">
       <h1 class="h1 mb-3 fw-normal">Orient House</h1>
       <h1 class="h4 mb-3 fw-normal">Inicia sesion</h1>
@@ -47,7 +47,7 @@
         <label for="floatingInput">Direccion Email</label>
       </div>
       <div class="form-floating">
-        <input type="password" class="form-control" id="password" placeholder="Password" name="pass">
+        <input type="password" class="form-control" id="pass" placeholder="Password" name="pass">
         <label for="floatingPassword">Contrasena</label>
       </div>
 

@@ -1,3 +1,11 @@
+<?php
+//1. iniciar servicio de session
+session_start();
+if ($_SESSION['rol'] != 'admin') {
+  header("Location: /cesde/labels/sigin.php");
+  exit;
+}
+?>
 <?php include_once("/opt/lampp/htdocs/cesde/static/header.php") ?>
 <body>
     <div class="container">

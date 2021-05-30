@@ -12,7 +12,7 @@
         <form class="row g-3 mt-2" onsubmit="return validatecontactanos()" method="POST">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Nombres Completos</label>
-                <input type="email" class="form-control" id="name" name="name" >
+                <input type="text" class="form-control" id="name" name="name">
             </div>
             <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Apellidos</label>
@@ -32,11 +32,11 @@
             </div>
             <div class="col-md-4">
                 <label for="inputState" class="form-label">Telefono</label>
-                <input type="text" class="form-control" id="tel" name="tel" >
+                <input type="text" class="form-control" id="tel" name="tel">
             </div>
             <div class="mb-3 col-10">
                 <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" placeholder="tucorreo@correo.com"  id="email" name="email" aria-describedby="emailHelp">
+                <input type="email" class="form-control" placeholder="tucorreo@correo.com" id="email" name="email" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text">No compartiremos esta informacion con nadie.</div>
             </div>
             <div class="col-10">
@@ -47,7 +47,7 @@
             </label>
     </div>
     </div>
-    <div class="col-10 mt-2">
+    <div class="col-10 mt-2 mx-5">
         <button type="submit" class="btn btn-primary mx-5 mt-2">Enviar</button>
     </div>
     </form>
